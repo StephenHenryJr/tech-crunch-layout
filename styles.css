@@ -1,0 +1,157 @@
+/* ************* BASE STYLES ************* */
+
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+:root {
+    --main-yellow: #fdc006;
+    --main-grey: rgb(158, 158, 158);
+    --main-black: rgb(0, 0, 0);
+    --main-green: #00a562;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-icon{
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-black);
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+.logo-small img {
+    max-width: 3rem;
+    height: auto;
+}
+
+.logo-small i {
+    margin-left: 0.5rem;
+    color: var(--main-yellow);
+    font-size: 2rem;
+}
+
+/* ************* HEADER STYLES ************* */
+header {
+    max-width: 20%;
+    float: left;
+}
+
+header img {
+    max-width: 7.5rem;
+    height: auto;
+}
+
+header span {
+    margin: 1.5rem 0;
+    letter-spacing: 2px;
+}
+
+header span a {
+    color: var(--main-yellow);
+    font-weight: bold;
+}
+
+header a {
+    color: var(--main-grey);
+}
+
+nav {
+    margin: 3rem 0;
+    font-size: 2.25rem;
+}
+
+header ul li {
+    margin: 1.5rem 0;
+    font-weight: lighter;
+}
+
+.fa-magnifying-glass {
+    margin-left: 0.5rem;
+}
+
+
+/* ************* MAIN SECTION STYLES ************* */
+.main {
+    max-width: 55%;
+    float: left;
+}
+
+.main-clip h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin: 0.5rem 0;
+}
+
+.img-container span {
+    font-size: 1.5rem;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 0.5rem 0;
+}
+
+/* ************* SIDE SECTION STYLES ************* */
+.side {
+    max-width: 25%;
+    float: left;
+}
+.side-clip {
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+
+.side-clip h3  {
+    margin: 1rem 0;
+    color: var(--main-green);
+}
+
+.side-clip h2 {
+    margin: 1rem 0;
+}
+
+.side-clip span {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
